@@ -1,0 +1,92 @@
+
+/* .slider {
+    position: absolute;
+    width: 60px;
+    height: 34px;
+    background-color: #ccc;
+    cursor: pointer;
+}
+
+.slider:hover {
+    background-color: green;
+}
+
+.slider::before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+   
+    bottom: 4px;
+    top: 4px;
+    left: 4px;
+    background-color: white;
+    transition: 0.4s;
+}
+
+.slider:hover::before {
+   transform: translateX(26px);
+} */
+
+/* .nav-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+} */
+
+/* .navbar {
+    background-color: black;
+    position: relative;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 48px;
+    text-align: center;
+}
+
+.navbar a {
+    position: relative;
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.navbar a:hover { 
+    background-color: #ddd;
+    color: black;
+} */
+
+.slider {
+    width: 60px;
+    height: 34px;
+    background-color: aqua;
+    position: absolute;
+}
+
+.slider:hover {
+    background-color: green;
+}
+
+.slider::before {
+    content: "";
+    width: 26px;
+    height: 26px;
+    background-color: aliceblue;
+    position: absolute;
+    transition: 0.5s;
+    top: 4px;
+    left: 4px;
+    bottom: 4px;
+}
+
+.slider:hover::before {
+    transform: translateX(26px);
+}
